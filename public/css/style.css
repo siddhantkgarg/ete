@@ -21,7 +21,8 @@ a:active {
 	background: none;
 }
 img {
-	border: none;
+	width:100%;
+
 }
 /*-------------------------------------------FONTS---------------------------------------------*/
 @font-face {
@@ -289,7 +290,8 @@ img {
 	display: block;
 	margin: 0;
 	padding: 0;
-	width: auto;
+	width: 100%;
+    height: auto;
 }
 #body.home .header div ul li a img:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
@@ -943,7 +945,8 @@ img {
 	display: block;
 	margin: 0;
 	padding: 0;
-	width: auto;
+	width: 100%;
+	height:auto;
 }
 #body .header div .article ul li a img:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
@@ -1136,6 +1139,8 @@ img {
 	margin: 0;
 	padding: 0;
 	width: auto;
+	width: 100%;
+    height: auto;
 }
 #body .header div .sidebar ul li ul li a img:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
@@ -1171,7 +1176,8 @@ img {
 	display: block;
 	margin: 3px 0 29px;
 	padding: 0;
-	width: auto;
+	width: 100%;
+	height:auto;
 }
 #body .header div .article h1 {
 	color: #A3A3A3;
